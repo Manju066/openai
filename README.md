@@ -6,8 +6,11 @@ Installation
 To use the code in this repository, follow the steps below:
 
 Clone the repository to your local machine using the following command:
+```
 git clone https://github.com/Manjunath-Aloji/openai.git
-
+```
 
 Install the necessary dependencies by running the following command in the repository's root directory:
+```
 pip install -r requirements.txt
+```
