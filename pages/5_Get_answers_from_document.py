@@ -7,6 +7,12 @@ from openai.embeddings_utils import get_embedding
 from openai.embeddings_utils import cosine_similarity
 
 st.set_page_config(page_title='Question Answers', page_icon=':memo:', layout='wide')
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 st.title('🤖 :blue[A.I] Get Answers from Doc')
 
 embedding_model = "text-embedding-ada-002"
