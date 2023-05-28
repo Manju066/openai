@@ -6,10 +6,8 @@ Installation
 To use the code in this repository, follow the steps below:
 
 Clone the repository to your local machine using the following command:
-shell
-Copy code
-git clone https://github.com/your-username/question-answering-image-generation.git
+git clone https://github.com/Manjunath-Aloji/openai.git
+
+
 Install the necessary dependencies by running the following command in the repository's root directory:
-shell
-Copy code
 pip install -r requirements.txt
