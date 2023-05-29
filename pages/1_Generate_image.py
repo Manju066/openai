@@ -37,6 +37,12 @@ def generate_image(prompt):
             st.error('Please Enter your Openai API key in Home page.', icon="🚨")
 
 st.set_page_config(page_title='Generate Images', page_icon=':bulb:', layout='wide')
+hide_menu_style = """
+        <style>
+        #MainMenu {visibility: hidden;}
+        </style>
+        """
+st.markdown(hide_menu_style, unsafe_allow_html=True)
 st.title('🤖 :blue[A.I] Image Generator')
 title = st.text_area('',placeholder='Enter a prompt to generate an image...')
 with st.spinner('Generating Image...'):
